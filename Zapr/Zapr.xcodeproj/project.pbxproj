@@ -20,6 +20,7 @@
 		80C7A60A24FEEC5900563154 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 80C7A60524FEEC5900563154 /* explosion.wav */; };
 		80C7A60B24FEEC5900563154 /* gameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = 80C7A60624FEEC5900563154 /* gameOver.wav */; };
 		80C7A60D24FEEF6500563154 /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7A60C24FEEF6500563154 /* ButtonNode.swift */; };
+		80C7A60F24FEF3A400563154 /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7A60E24FEF3A400563154 /* PlayScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		80C7A60524FEEC5900563154 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
 		80C7A60624FEEC5900563154 /* gameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameOver.wav; sourceTree = "<group>"; };
 		80C7A60C24FEEF6500563154 /* ButtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
+		80C7A60E24FEF3A400563154 /* PlayScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				80C7A5FB24FEE33900563154 /* Info.plist */,
 				80C7A60124FEEC5900563154 /* SFX */,
 				80C7A60C24FEEF6500563154 /* ButtonNode.swift */,
+				80C7A60E24FEF3A400563154 /* PlayScene.swift */,
 			);
 			path = Zapr;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80C7A5F024FEE33500563154 /* GameScene.swift in Sources */,
+				80C7A60F24FEF3A400563154 /* PlayScene.swift in Sources */,
 				80C7A60D24FEEF6500563154 /* ButtonNode.swift in Sources */,
 				80C7A5F224FEE33500563154 /* GameViewController.swift in Sources */,
 				80C7A5EA24FEE33500563154 /* AppDelegate.swift in Sources */,

@@ -11,6 +11,11 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController {
+    
+    // MARK: - Properties
+    var gameScene: SKScene? {
+        return (self.view as! SKView).scene
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,4 +37,13 @@ class GameViewController: UIViewController {
         }
     }
 
+    override func pressesBegan(_ presses: Set<UIPress>, with event: UIPressesEvent?) {
+        guard let press = presses.first else { return }
+        
+        if press.type == .menu {
+            super.pressesBegan(presses, with: event)
+        } else {
+            gameScene?.pressesBegan(presses, with: event)
+        }
+    }
 }
