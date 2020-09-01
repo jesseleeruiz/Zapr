@@ -9,25 +9,33 @@
 /* Begin PBXBuildFile section */
 		80C7A5EA24FEE33500563154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7A5E924FEE33500563154 /* AppDelegate.swift */; };
 		80C7A5EC24FEE33500563154 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80C7A5EB24FEE33500563154 /* GameScene.sks */; };
-		80C7A5EE24FEE33500563154 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80C7A5ED24FEE33500563154 /* Actions.sks */; };
 		80C7A5F024FEE33500563154 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7A5EF24FEE33500563154 /* GameScene.swift */; };
 		80C7A5F224FEE33500563154 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7A5F124FEE33500563154 /* GameViewController.swift */; };
 		80C7A5F524FEE33500563154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C7A5F324FEE33500563154 /* Main.storyboard */; };
 		80C7A5F724FEE33900563154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C7A5F624FEE33900563154 /* Assets.xcassets */; };
 		80C7A5FA24FEE33900563154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C7A5F824FEE33900563154 /* LaunchScreen.storyboard */; };
+		80C7A60724FEEC5900563154 /* enemy1Weapon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 80C7A60224FEEC5900563154 /* enemy1Weapon.wav */; };
+		80C7A60824FEEC5900563154 /* playerWeapon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 80C7A60324FEEC5900563154 /* playerWeapon.wav */; };
+		80C7A60924FEEC5900563154 /* cyborgNinja.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 80C7A60424FEEC5900563154 /* cyborgNinja.mp3 */; };
+		80C7A60A24FEEC5900563154 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 80C7A60524FEEC5900563154 /* explosion.wav */; };
+		80C7A60B24FEEC5900563154 /* gameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = 80C7A60624FEEC5900563154 /* gameOver.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80C7A5E624FEE33500563154 /* Zapr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zapr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C7A5E924FEE33500563154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80C7A5EB24FEE33500563154 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		80C7A5ED24FEE33500563154 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		80C7A5EF24FEE33500563154 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		80C7A5F124FEE33500563154 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		80C7A5F424FEE33500563154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80C7A5F624FEE33900563154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80C7A5F924FEE33900563154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80C7A5FB24FEE33900563154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C7A60224FEEC5900563154 /* enemy1Weapon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enemy1Weapon.wav; sourceTree = "<group>"; };
+		80C7A60324FEEC5900563154 /* playerWeapon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = playerWeapon.wav; sourceTree = "<group>"; };
+		80C7A60424FEEC5900563154 /* cyborgNinja.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cyborgNinja.mp3; sourceTree = "<group>"; };
+		80C7A60524FEEC5900563154 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		80C7A60624FEEC5900563154 /* gameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameOver.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +70,27 @@
 			children = (
 				80C7A5E924FEE33500563154 /* AppDelegate.swift */,
 				80C7A5EB24FEE33500563154 /* GameScene.sks */,
-				80C7A5ED24FEE33500563154 /* Actions.sks */,
 				80C7A5EF24FEE33500563154 /* GameScene.swift */,
 				80C7A5F124FEE33500563154 /* GameViewController.swift */,
 				80C7A5F324FEE33500563154 /* Main.storyboard */,
 				80C7A5F624FEE33900563154 /* Assets.xcassets */,
 				80C7A5F824FEE33900563154 /* LaunchScreen.storyboard */,
 				80C7A5FB24FEE33900563154 /* Info.plist */,
+				80C7A60124FEEC5900563154 /* SFX */,
 			);
 			path = Zapr;
+			sourceTree = "<group>";
+		};
+		80C7A60124FEEC5900563154 /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				80C7A60224FEEC5900563154 /* enemy1Weapon.wav */,
+				80C7A60324FEEC5900563154 /* playerWeapon.wav */,
+				80C7A60424FEEC5900563154 /* cyborgNinja.mp3 */,
+				80C7A60524FEEC5900563154 /* explosion.wav */,
+				80C7A60624FEEC5900563154 /* gameOver.wav */,
+			);
+			path = SFX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,10 +152,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				80C7A5F524FEE33500563154 /* Main.storyboard in Resources */,
+				80C7A60824FEEC5900563154 /* playerWeapon.wav in Resources */,
+				80C7A60A24FEEC5900563154 /* explosion.wav in Resources */,
 				80C7A5EC24FEE33500563154 /* GameScene.sks in Resources */,
 				80C7A5F724FEE33900563154 /* Assets.xcassets in Resources */,
+				80C7A60724FEEC5900563154 /* enemy1Weapon.wav in Resources */,
+				80C7A60B24FEEC5900563154 /* gameOver.wav in Resources */,
 				80C7A5FA24FEE33900563154 /* LaunchScreen.storyboard in Resources */,
-				80C7A5EE24FEE33500563154 /* Actions.sks in Resources */,
+				80C7A60924FEEC5900563154 /* cyborgNinja.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
