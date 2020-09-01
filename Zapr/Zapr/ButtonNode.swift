@@ -33,5 +33,4 @@ class ButtonNode: SKSpriteNode {
     func didLoseFocus() {
         texture = unfocusedImage
     }
-
 }
