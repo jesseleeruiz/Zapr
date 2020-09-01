@@ -21,6 +21,7 @@
 		80C7A60B24FEEC5900563154 /* gameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = 80C7A60624FEEC5900563154 /* gameOver.wav */; };
 		80C7A60D24FEEF6500563154 /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7A60C24FEEF6500563154 /* ButtonNode.swift */; };
 		80C7A60F24FEF3A400563154 /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7A60E24FEF3A400563154 /* PlayScene.swift */; };
+		80C7A61124FEF7F200563154 /* starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80C7A61024FEF7F200563154 /* starfield.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		80C7A60624FEEC5900563154 /* gameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameOver.wav; sourceTree = "<group>"; };
 		80C7A60C24FEEF6500563154 /* ButtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
 		80C7A60E24FEF3A400563154 /* PlayScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+		80C7A61024FEF7F200563154 /* starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starfield.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				80C7A60124FEEC5900563154 /* SFX */,
 				80C7A60C24FEEF6500563154 /* ButtonNode.swift */,
 				80C7A60E24FEF3A400563154 /* PlayScene.swift */,
+				80C7A61024FEF7F200563154 /* starfield.sks */,
 			);
 			path = Zapr;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				80C7A60724FEEC5900563154 /* enemy1Weapon.wav in Resources */,
 				80C7A60B24FEEC5900563154 /* gameOver.wav in Resources */,
 				80C7A5FA24FEE33900563154 /* LaunchScreen.storyboard in Resources */,
+				80C7A61124FEF7F200563154 /* starfield.sks in Resources */,
 				80C7A60924FEEC5900563154 /* cyborgNinja.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

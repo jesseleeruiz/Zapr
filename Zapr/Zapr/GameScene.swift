@@ -16,8 +16,6 @@ class GameScene: SKScene {
     let howToPlay = ButtonNode(imageNamed: "howToPlayLo")
     
     override func didMove(to view: SKView) {
-        anchorPoint = CGPoint(x: 0.5, y: 0.5)
-        
         let background = SKSpriteNode(imageNamed: "background")
         background.zPosition = -1
         background.blendMode = .replace
@@ -38,7 +36,7 @@ class GameScene: SKScene {
         howToPlay.setFocusedImage(named: "howToPlayHi")
         howToPlay.position = CGPoint(x: 0, y: -250)
         addChild(howToPlay)
-    }
+        }
     
     override func didUpdateFocus(in context: UIFocusUpdateContext, with coordinator: UIFocusAnimationCoordinator) {
         if let previous = context.previouslyFocusedItem as? ButtonNode {
@@ -62,5 +60,4 @@ class GameScene: SKScene {
             }
         }
     }
-    
 }
