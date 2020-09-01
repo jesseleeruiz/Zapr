@@ -34,6 +34,9 @@ class GameViewController: UIViewController {
             
             view.showsFPS = true
             view.showsNodeCount = true
+            
+            let recognizer = UIPanGestureRecognizer(target: self, action: #selector(movementMade))
+            view.addGestureRecognizer(recognizer)
         }
     }
 
@@ -44,6 +47,14 @@ class GameViewController: UIViewController {
             super.pressesBegan(presses, with: event)
         } else {
             gameScene?.pressesBegan(presses, with: event)
+        }
+    }
+    
+    @objc func movementMade(recognizer: UIPanGestureRecognizer) {
+        let translation = recognizer.translation(in: recognizer.view)
+        
+        if let scene = gameScene as? PlayScene {
+            scene.movePlayer(translation)
         }
     }
 }

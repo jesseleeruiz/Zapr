@@ -27,5 +27,20 @@ class PlayScene: SKScene {
         particles.advanceSimulationTime(60)
         addChild(particles)
         }
+        
+        player.name = "player"
+        player.position.x = -700
+        player.zPosition = 1
+        addChild(player)
+    }
+    
+    func movePlayer(_ delta: CGPoint) {
+        player.position.y -= delta.y * 2
+        
+        if player.position.y < -500 {
+            player.position.y = -500
+        } else if player.position.y > 500 {
+            player.position.y = 500
+        }
     }
 }
